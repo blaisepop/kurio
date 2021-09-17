@@ -1,0 +1,4 @@
+<h1>All videos</h1>
+<% @all_videos.each do |vid| %>
+<p><%= link_to vid.video_title,video_path(vid)%></p>
+<% end %>

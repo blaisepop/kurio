@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  videokey: MyString
+  video_language: MyString
+  video_title: MyString
+  rating: 1
+  description: MyText
+
+two:
+  videokey: MyString
+  video_language: MyString
+  video_title: MyString
+  rating: 1
+  description: MyText
