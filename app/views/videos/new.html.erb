@@ -1,0 +1,7 @@
+<div class = "container-fluid mt-3">
+  <%= simple_form_for @video do |f| %>
+    <%= f.input :videokey %>
+    <%= f.input :video_language, collection: [ "FR", "ES", "EN"] %>
+    <%= f.button :submit %>
+  <% end %>
+</div>
