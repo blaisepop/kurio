@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/bo-oz/vimeo_me2.git
-  revision: 3296c6ba08cf932dcb22bf71af56c74d9234ea48
-  specs:
-    vimeo_me2 (1.2.1)
-      httparty (~> 0.14.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -99,8 +92,6 @@ GEM
       sassc (>= 1.11)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    httparty (0.14.0)
-      multi_xml (>= 0.5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
@@ -259,7 +250,6 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
-  vimeo_me2!
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
